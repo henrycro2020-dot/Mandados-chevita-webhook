@@ -1,0 +1,13 @@
+{
+  "name": "mandados-chevita-webhook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Webhook de WhatsApp Cloud API para Mandados Chevita",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

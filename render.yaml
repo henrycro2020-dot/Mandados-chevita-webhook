@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mandados-chevita-webhook
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: WHATSAPP_VERIFY_TOKEN
+        sync: false
